@@ -17,16 +17,16 @@ if ($files) {
 
 <html>
 <head>
-    <title>RandomFox</title>
+    <title>MemoriaMaster</title>
     <meta charset="utf-8">
-    <meta type="author" content="xinitrc" />
+    <meta type="author" content="xtech" />
     <meta type="description" content="Displaying pictures of random foxes with every click!" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#FF6600" />
 	<meta http-equiv="Cache-Control" content="max-age=1" />
 
     <meta property="og:image" content="https://memoria-master/images/<?= $random_fox_index ?>.jpg" />
-    <meta property="og:title" content="randomfox.ca" />
+    <meta property="og:title" content="#" />
     <meta property="og:description" content="Random fox on every click!" />
     <meta property="og:url" content="https://memoria-master" />
 
