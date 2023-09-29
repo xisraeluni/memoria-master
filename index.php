@@ -86,7 +86,7 @@ if ($files) {
 		<p id="fox_count">Fox Count: <?= $FOX_NUM ?><br />
 			<a href="https://github.com/xisraeluni/memoria-master">Add more floof!</a></p>
 
-		<p>Submit more foxes?<br>Here: <a href="https://github.com/xisraeluni/memoria-master" target="_blank">GitHub</a> or <a href="mailto:x-bot@x-hub.co?subject=Fox%20Pictures%20Upload%20Request">Email</a></p>
+		<p>Submit more foxes?<br>Here: <a href="https://github.com/xisraeluni/memoria-master" target="_blank">GitHub</a> or <a href="#">Email</a></p>
 
 		<br /><br /><br />
 		<p>API is Available: <a href="https://memoria-master/floof">https://memoria-master/floof</a></p>
