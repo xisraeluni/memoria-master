@@ -25,10 +25,10 @@ if ($files) {
 	<meta name="theme-color" content="#FF6600" />
 	<meta http-equiv="Cache-Control" content="max-age=1" />
 
-    <meta property="og:image" content="https://randomfox.ca/images/<?= $random_fox_index ?>.jpg" />
+    <meta property="og:image" content="https://memoria-master/images/<?= $random_fox_index ?>.jpg" />
     <meta property="og:title" content="randomfox.ca" />
     <meta property="og:description" content="Random fox on every click!" />
-    <meta property="og:url" content="https://randomfox.ca" />
+    <meta property="og:url" content="https://memoria-master" />
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script>
@@ -81,24 +81,24 @@ if ($files) {
 <div id="panel">
 	<div id="sidebar">
 		<label for=shareButton><strong>Share this fox!</strong></label>
-		<input type="text" id="shareButton" value="https://randomfox.ca/?i=<?= $random_fox_index ?>" onclick="this.select();" /><br />
+		<input type="text" id="shareButton" value="https://memoria/?i=<?= $random_fox_index ?>" onclick="this.select();" /><br />
 
 		<p id="fox_count">Fox Count: <?= $FOX_NUM ?><br />
-			<a href="https://github.com/xisraeluni/randomfox.ca">Add more floof!</a></p>
+			<a href="https://github.com/xisraeluni/memoria">Add more floof!</a></p>
 
-		<p>Submit more foxes?<br>Here: <a href="https://github.com/xisraeluni/randomfox.ca" target="_blank">GitHub</a> or <a href="mailto:x-bot@x-hub.co?subject=Fox%20Pictures%20Upload%20Request">Email</a></p>
+		<p>Submit more foxes?<br>Here: <a href="https://github.com/xisraeluni/memoria" target="_blank">GitHub</a> or <a href="mailto:x-bot@x-hub.co?subject=Fox%20Pictures%20Upload%20Request">Email</a></p>
 
 		<br /><br /><br />
-		<p>API is Available: <a href="https://randomfox.ca/floof">https://randomfox.ca/floof</a></p>
+		<p>API is Available: <a href="https://memoria/floof">https://randomfox.ca/floof</a></p>
 
 	</div>
 
-	<a href="https://randomfox.ca/?i=<?= $random_fox_index ?>" id="fox_full_link">
-		<img src="https://randomfox.ca/images/<?= $random_fox_index ?>.jpg" alt="" title="" style="visibility: hidden;" id="fox_img_link" />
+	<a href="https://memoria/?i=<?= $random_fox_index ?>" id="fox_full_link">
+		<img src="https://memoria/images/<?= $random_fox_index ?>.jpg" alt="" title="" style="visibility: hidden;" id="fox_img_link" />
 	</a>
 
     <div id="footer">
-        <p>Made by: xinitrc</p>
+        <p>Made by: xtech</p>
     </div>
 </div>
 
